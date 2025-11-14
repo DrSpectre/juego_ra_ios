@@ -11,13 +11,16 @@ struct PantallaPrincipal: View{
     
     
     var body: some View{
+        VistaCamara()
+        
+        
         NavigationStack{
             ForEach(pistas){ pista in
                 if(pista.puede_ser_recogida(
                     ubicacion: proveedor_ubicacion.ubicacion_actual)
                     ){
                     NavigationLink{
-                        Text("Esta es la pantalla de la pista. ")
+                        SelectorPantallaPista(pista_id: pista.id)
                     } label: {
                         Text("Puchopicame para ir a la pista \(pista.id)")
                     }
@@ -31,7 +34,7 @@ struct PantallaPrincipal: View{
                         switch(porcentaje){
                             case 1...10:
                                 NavigationLink{
-                                    Text("Esta es la pantalla de la pista. ")
+                                    SelectorPantallaPista(pista_id: pista.id)
                                 } label: {
                                     Text("Puchopicame para ir a la pista \(pista.id)")
                                 }
@@ -54,6 +57,7 @@ struct PantallaPrincipal: View{
                 
             }
         }
+            
     }
 }
 

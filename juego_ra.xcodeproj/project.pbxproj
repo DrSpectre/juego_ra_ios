@@ -256,6 +256,7 @@
 				DEVELOPMENT_TEAM = V624A3T7L3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "PAra pedir permisos de uso de la camara";
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "El segundo permiso";
 				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "PAra solictiar permisos de usar la ubicacion, su descripcion de uso";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "El tercer permiso";
@@ -287,6 +288,7 @@
 				DEVELOPMENT_TEAM = V624A3T7L3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "PAra pedir permisos de uso de la camara";
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "El segundo permiso";
 				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "PAra solictiar permisos de usar la ubicacion, su descripcion de uso";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "El tercer permiso";

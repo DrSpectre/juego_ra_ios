@@ -22,7 +22,8 @@ struct SelectorPantallaPista: View {
                 PantallaPistaInformacion(cuerpo_pista: de_informacion)
                 
             case let de_interaccion as PistaInteractuable:
-                Text("Es una pista con botoncitos.")
+                PantallaPistaInteractuable(pista: de_interaccion)
+                
             default:
                 Text("Aqui no ha nada")
         }
